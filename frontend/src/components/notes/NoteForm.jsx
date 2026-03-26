@@ -27,7 +27,7 @@ function NoteForm() {
         <input
           type="text"
           placeholder={isExpanded ? "Title" : "Take a note..."}
-          className="w-full px-6 pt-5 pb-2 bg-transparent text-lg font-semibold text-white placeholder-gray-500 outline-none"
+          className="w-full px-6 pt-3 pb-5 bg-transparent text-lg font-semibold text-white placeholder-gray-500 outline-none"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           onFocus={() => setIsExpanded(true)}
